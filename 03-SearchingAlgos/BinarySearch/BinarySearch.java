@@ -13,7 +13,7 @@ public class BinarySearch {
     }
     static int binarySearch(int[] arr, int key){
         int start = 0;
-        int end = arr.length;
+        int end = arr.length - 1;
         while(start <= end){
             // find the middle element
             // int mid = ( start + end ) / 2;// as int has limited value range so this will do the mid element only to the limited range
