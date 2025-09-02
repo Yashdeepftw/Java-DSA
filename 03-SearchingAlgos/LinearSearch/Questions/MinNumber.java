@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 public class MinNumber {
     public static void main(String[] args) {
